@@ -3,7 +3,7 @@ import copy
 def spread_fire(grid):
     grid_size = len(grid)
     update_grid = copy.deepcopy(grid)
-    for i in range(grid.size):
+    for i in range(grid_size):
         for j in range(grid_size):
             if grid[i][j] == 1:
                 neighbors = []
